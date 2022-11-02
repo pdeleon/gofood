@@ -1,0 +1,152 @@
+:root {
+    --primary-font: 'Outfit', sans-serif;
+    --secondary-font: 'Noto Serif', serif;
+    font-size: 10px;
+    --color-1: #002b84;
+    --color-2: #00A0DF;
+    --color-txt: #47494e;
+
+}
+
+.section-padding {
+    padding: 3rem 1.5rem;
+}
+.main-btn {
+    margin-top: 3rem;
+    width: fit-content;
+}
+.main-btn_link {
+    padding: 1rem 2rem;
+    background-color: var(--color-1);
+    width: fit-content;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-btn_link:hover {
+    cursor: pointer;
+    background-color: #0244c8;
+}
+
+.content {
+    font-size: 1.2rem;
+    color: var(--color-txt);
+    line-height: 1.3;
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background-image: url("../img/hero-mobile.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:46rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.logo-img {
+    height: 2.75rem;
+}
+
+.logo-name {
+    font-size: 2.5rem;
+    color: #002b84;
+    margin-left: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.title-main {
+    color: var(--color-1);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.title-sub {
+    color: var(--color-2);
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;
+}
+
+
+
+
+
+/* GET STARTED */
+.get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--primary-font);
+}
+
+.get-started_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.9rem;
+    line-height: 1.4;
+}
+
+.get-started_heading-1 {
+    font-family: var(--secondary-font);
+    color: var(--color-2)
+}
+
+.get-started_heading-2 {
+    color: var(--color-1)
+}
+
+.get-started_btn {
+    margin-bottom: 3rem;
+}
+
+.get-started_content {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.column-img {
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+
+.column-txt.content {
+    margin: 0;
+}
+
