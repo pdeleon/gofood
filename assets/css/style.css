@@ -2,9 +2,9 @@
     --primary-font: 'Outfit', sans-serif;
     --secondary-font: 'Noto Serif', serif;
     font-size: 10px;
-    --fs-s: 1.4rem;
-    --fs-m: 2rem;
-    --fs-l: 2.5rem;
+    --fs-s: 1.8rem;
+    --fs-m: 2.6rem;
+    --fs-l: 3rem;
     --color-1: #002b84;
     --color-2: #00A0DF;
     --color-txt: #47494e;
@@ -122,6 +122,7 @@ strong {
     align-items: center;
     font-size: var(--fs-m);
     line-height: 1.4;
+    text-align: center;
 }
 
 .get-started_heading-1 {
@@ -181,6 +182,8 @@ strong {
     font-size: var(--fs-m);
     line-height: 1.4;
     letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 2.5rem;
 }
 
 .container {
@@ -422,8 +425,8 @@ strong {
     .container .benefit {
         width: 50%;
         padding: 1.5rem;
-        height: 15rem;
-        max-width: 38rem;
+        height: 20rem;
+        max-width: 35rem;
         justify-content: flex-start;
     }
 
@@ -432,7 +435,7 @@ strong {
     }
 
     .container, .get-started_content{
-        width: 80%;
+        
         max-width: 65ch;
     }
 
@@ -463,11 +466,16 @@ strong {
 }
 @media only screen and (min-width: 900px){
     .benefits .container {
-        max-width: 93.5rem;
+        max-width: 100%;
     }
     .container .benefit {
         width: 25%;
-        height: 21rem;
+        height: 25rem;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .container .benefit {
+        height: 22rem;
     }
 }
 
