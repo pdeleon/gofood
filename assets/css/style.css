@@ -391,7 +391,7 @@ strong {
         max-width: 37.5rem;
     }
 }
-@media only screen and (min-width: 630px){
+@media only screen and (min-width: 635px){
     .hero {
         background-image: url("../img/hero-web.webp");
         align-items: flex-start;
@@ -449,6 +449,10 @@ strong {
         flex-direction: column;
         margin: 0;
         width: 33.3333333%;
+    }
+
+    .column-txt.content {
+        text-align: center;
     }
 
     .column-img {
