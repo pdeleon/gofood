@@ -31,6 +31,10 @@
     background-color: #0244c8;
 }
 
+.main-btn_txt {
+    font-family: var(--primary-font);
+}
+
 .content {
     font-size: 1.2rem;
     color: var(--color-txt);
@@ -94,8 +98,6 @@ strong {
 
 
 
-
-
 /* GET STARTED */
 .get-started {
     display: flex;
@@ -118,7 +120,8 @@ strong {
 }
 
 .get-started_heading-2 {
-    color: var(--color-1)
+    color: var(--color-1);
+    letter-spacing: 2px;
 }
 
 .get-started_btn {
@@ -150,3 +153,106 @@ strong {
     margin: 0;
 }
 
+/* BENEFITS */
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--primary-font);
+    background-color: var(--color-2);
+    color: #fff;
+}
+
+.benefits_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.9rem;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.container-img {
+    width: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+.container-heading {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.container-txt.content {
+    color: #fff;
+    margin: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+.benefits_btn {
+    padding-top: 2rem;
+}
+
+.benefits_btn .main-btn_link {
+    background-color: #fff;
+    color: var(--color-1);
+    font-weight: 500;
+}
+
+/* OFFER */
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/offer.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 38rem;
+}
+
+.offer-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.offer_heading {
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.offer_heading-1 {
+    font-family: var(--secondary-font);
+    color: var(--color-2);
+    line-height: 1.2;
+}
+
+.offer_heading-2 {
+    font-family: var(--primary-font);
+    color: var(--color-1);
+    letter-spacing: 2px;
+    line-height: 1.4;
+    padding-top: .5rem;
+}
