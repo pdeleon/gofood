@@ -12,6 +12,9 @@
     padding: 3rem 1.5rem;
 }
 .main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 3rem;
     width: fit-content;
 }
@@ -57,7 +60,7 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:46rem;
+    min-height:46rem;
 }
 
 .logo {
@@ -125,7 +128,7 @@ strong {
 }
 
 .get-started_btn {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .get-started_content {
@@ -206,9 +209,6 @@ strong {
     line-height: 1.6;
     text-align: center;
 }
-.benefits_btn {
-    padding-top: 2rem;
-}
 
 .benefits_btn .main-btn_link {
     background-color: #fff;
@@ -255,4 +255,104 @@ strong {
     letter-spacing: 2px;
     line-height: 1.4;
     padding-top: .5rem;
+}
+
+/* SIGN UP */
+.sing-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+.sing-up_info_title {
+    color: var(--color-1);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.sing-up_info_txt.content {
+    margin: 1rem;
+    line-height: 1.5;
+}
+
+.submit-email {
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid #333;
+    width: 90%;
+    background-color: #002b84;
+}
+
+.submit-email a {
+    text-decoration: none;
+}
+
+.submit-email_input {
+    font-size: 1.3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: .5rem 1rem;
+    border: 1px solid #333;
+    width: 100%;
+    border: none;
+}
+
+.s-btn {
+    color: #fff;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.s-btn:hover {
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--color-1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--primary-font);
+    text-align: center;
+}
+.footer-c {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.footer-c p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.footer-c_terms {
+    display: flex;
+    justify-content: center;
+}
+.footer-c_terms a {
+    color: #fff;
+    margin: 0 .5rem;
+}
+
+.footer-c_icons, .footer-c_copy {
+    padding-bottom: .75rem;
+}
+.footer-logo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo .logo-name {
+    color: #fff;
 }
